@@ -11,7 +11,7 @@ const UserProfile =({user})=>{
             <div className='card'>
                 <h4>{user.name}</h4>
                 <p>{user.email}</p>
-                <p>user.address</p>
+                <p>{user.address}</p>
 
             </div>
         )
